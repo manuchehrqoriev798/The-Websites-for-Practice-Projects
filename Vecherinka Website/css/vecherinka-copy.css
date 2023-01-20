@@ -1,14 +1,10 @@
 @import url(https://fonts.googleapis.com/css?family=Inter:100,200,300,regular,500,600,700,800,900);
-*{
-
-}
 body{
     font-family: "Inter", sans-serif;
     font-weight:  400;
     font-size: 14px;
     color: #0a0a0a;
     background-color: #F5F5F7;
-
 }
 
 .header {
@@ -98,7 +94,7 @@ body{
 /* What's new */
 .news {
     background-color: #fff;
-    padding: 90px 0;
+    padding: 90px 0 150px;
 }
 .news-title {
     color: #717171;
@@ -145,4 +141,70 @@ body{
     font-weight: 700;
     line-height: 26px;
     color: #0A0A0A;
+}
+
+
+
+
+/* Order*/
+.order {
+    background-color: white ;
+}
+.order-info {
+    display: flex;
+    background-color: #574B63;
+    justify-content: space-between;
+}
+.order-text{
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+}
+.order-title {
+    margin: 130px 0 70px;
+    color: white;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 38px;
+}
+.order-input{
+    display: block;
+    border: none;
+    background-color: #574B63;
+    border-bottom: 2px solid white ;
+    color: white;
+    margin-bottom: 25px;
+    padding: 10px 0;
+}
+.order-input::placeholder{
+    color: white;
+    opacity: 0.5;
+}
+.order-input:focus{
+    background-color: #fff;
+    color: purple;
+    padding-left: 15px;
+}
+.order-input::after{
+    border: none;
+}
+.order-paragraph {
+    text-align: center;
+    margin: 24px 0 30px;
+    color: white;
+    opacity: 0.5;
+}
+.order-button {
+    background-color: white;
+    border-radius: 30px;
+    max-width: 20%;
+    max-height: 50px;
+    padding: 16px 81px;
+    margin: 0 auto;
+    text-decoration: none;
+    color: #490E84;
+    font-weight: 700;
+}
+.order-img{
+
 }
